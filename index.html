@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=6.0">
     <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding:10px;
+        }
+    </style>
 </head>
 <body>
     <h1>This is a heading</h1>
@@ -66,12 +75,14 @@
         <br>
         <button type="submit">Submit</button> 
     </form>
+    <hr>
     <h3>Ordered list languages</h3>
     <ol style="list-style-type:lower-alpha;">
         <li>C</li>
         <li>C++</li>
         <li>Rust</li>
     </ol>
+    <hr>
     <h3>Unordered list languages</h3>
     <ul style="list-style-type: square;">
         <li>C</li>
@@ -84,7 +95,62 @@
         <h2>This is shankar</h2>
         <p>This is para</p>
     </div>
-    
-
+    <hr>
+    <h2>Anchor</h2>
+    <a href="/index1.html" target="_blank">index1.html</a>
+    <a href="http://google.com">google</a>
+    <a href="http:/sastra.edu">Sastra</a>
+    <hr>
+    <center>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCD-i0yLkGaw5PP9Dvc9zcYzYzal_WEC0XUQ&s" alt="Image not found"
+        height="300px" width="300px"
+        >
+        <br>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKKAMWmDtoVY-iceHCtwv8VJVKYevMCx8_TTRVLyObM6qle3WV8gRBm3if8hYkl9Vm2oW4Q_pyhHh7604D84HsjBVtoGjHR6vSn8tJSg4nskoZggS7fLOm8htM6ZIGNHx7HV5rVbOTkhsYZ9PVywGaw_2PIqpaPLkXifWXA9FwgUZTpx2Dk1IkTOc6/w640-h426/IMG_20220626_231330.jpg" alt="Image not found"
+        height="300px" width="300px">
+    </center>
+    <hr>
+    <h2>Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll number</th>
+                <th>Department</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>125003341</td>
+                <td>CSE</td>
+                <td>Saibaba</td>
+            </tr>
+            <tr>
+                <td>125003015</td>
+                <td>CSE</td>
+                <td>Aishu</td>
+            </tr>
+            <tr>
+                <td>125156006</td>
+                <td>CSE-AI/DS</td>
+                <td>Shakthi</td>
+            </tr>
+            <tr>
+                <td>125003175</td>
+                <td>CSE</td>
+                <td>Maria</td>
+            </tr>
+            <tr>
+                <td>125003358</td>
+                <td>CSE</td>
+                <td>Alan</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td colspan="3">Sum</td>
+            </tr>
+          </tfoot>
+    </table>
 </body>
 </html>
